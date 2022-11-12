@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <!-- logo for page -->
+    <link rel="icon" href="">
+    <!-- all main css  -->
+    <link rel="stylesheet" href="./css_file/all.min.css">
+    <!-- normailze css  -->
+    <link rel="stylesheet" href="./css_file/normalize.css">
+    <!-- design css -->
+    <link rel="stylesheet" href="./css_file/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="contener">
+            <img class="logo" src="./images/logo.png">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./shop.html">shop</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                    <li><a class="active" href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                </ul>
+            </nav>
+            <div class="bars">
+                <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i class="fa-solid fa-bars-staggered" id="minu"></i>
+                <i class="fa-regular fa-circle-xmark" id="exit"></i>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing -->
+    <section class="landing" id="cart-back">
+        <div class="contener">
+            <h3>#cart</h3>
+            <p>add you coupon code & save upto 70%!</p>
+        </div>
+    </section>
+    <!-- end landing -->
+    <!-- start table -->
+    <section class="table-cont">
+        <div class="contener">
+            <table >
+                <thead>
+                    <tr>
+                        <td>REMOVE</td>
+                        <td>IMAGE</td>
+                        <td>PRODUCT</td>
+                        <td>PRICE</td>
+                        <td>QUANTITY</td>
+                        <td>SUBTOTAL</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-regular fa-circle-xmark"></i></td>
+                        <td><img src="./images/products/f1.jpg"></td>
+                        <td>cartoon astronaut t-shirt</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-regular fa-circle-xmark"></i></td>
+                        <td><img src="./images/products/f2.jpg"></td>
+                        <td>cartoon astronaut t-shirt</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-regular fa-circle-xmark"></i></td>
+                        <td><img src="./images/products/f3.jpg"></td>
+                        <td>cartoon astronaut t-shirt</td>
+                        <td>$118.19</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$118.19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- end table -->
+    <!-- start coupon-cart -->
+    <section class="coupon-cart">
+        <div class="contener">
+            <div class="coupon">
+                <h3>apply coupon</h3>
+                <form>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <input type="submit" value="apply">
+                </form>
+            </div>
+            <div class="total">
+                <h3>cart totals</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>cart subtotal</td>
+                            <td>$335</td>
+                        </tr>
+                        <tr>
+                            <td>shipping</td>
+                            <td>free</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>total</td>
+                            <td>$335</td>
+                        </tr>
+                    </tfoot>
+                    </tbody>
+                </table>
+                <input type="submit" value="proceed to checkout">
+            </div>
+        </div>
+    </section>
+    <!-- end coupon-cart -->
+    <!-- start footer -->
+    <footer>
+        <div class="contener">
+            <div class="content">
+                <div class="card-1">
+                    <img src="./images/logo.png">
+                    <h4 class="title">contact:</h4>
+                    <ul>
+                        <li><span>address:</span> iraq/baghdad/hay-almansur</li>
+                        <li><span>phone:</span> 07800575045</li>
+                        <li><span>hours:</span> 10:00 - 18:00. san - sat</li>
+                    </ul>
+                    <div class="links">
+                        <h4>follow us</h4>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <h4 class="title">about</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">delivery information</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">terms & conditional</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="card-3">
+                    <h4 class="title">my account</h4>
+                    <ul>
+                        <li><a href="#">sign up</a></li>
+                        <li><a href="#">veiw cart</a></li>
+                        <li><a href="#">my wishlist</a></li>
+                        <li><a href="#">track my order</a></li>
+                        <li><a href="#">help</a></li>
+                    </ul>
+                </div>
+                <div class="card-4">
+                    <h4 class="title">install app</h4>
+                    <p class="app">from app store or google play</p>
+                    <img src="./images/pay/app.jpg">
+                    <img src="./images/pay/play.jpg">
+                    <p class="pay">secured payment gateways</p>
+                    <img src="./images/pay/pay.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="contener">
+            <h3>&copy 2022 | create by ali aljubouri | all rights reserved
+            </h3>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- script file -->
+    <script src="./js_file/main.js"></script>
+    </body>
+    </html>
